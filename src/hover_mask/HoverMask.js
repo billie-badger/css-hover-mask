@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
+import './HoverMaskStyles.css';
 
-class Title extends Component {
+class HoverMask extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -57,8 +58,8 @@ class Title extends Component {
   }
 }
 
-Title.propTypes = {
+HoverMask.propTypes = {
   text: PropTypes.string.isRequired
 }
 
-export default Title
+export default HoverMask

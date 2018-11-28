@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Title from './Title';
+import HoverMask from './hover_mask/HoverMask';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <Title text='CSS HOVER MASK' />
+          <HoverMask text='CSS HOVER MASK' />
         </header>
       </div>
     );
